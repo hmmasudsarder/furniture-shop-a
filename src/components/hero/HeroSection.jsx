@@ -16,7 +16,7 @@ const HeroSection = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                 tellus, <br/> luctus nec ullamcorper mattis.
               </p>
-              <button className="lg:mt-14 py-4 px-9 bg-[#054C73] rounded-3xl text-white">BUY NOW</button>
+              <button className="lg:mt-14 py-4 px-9 bg-[#054C73] rounded-3xl text-white font-semibold">BUY NOW</button>
             </div>
           </div>
         </div>

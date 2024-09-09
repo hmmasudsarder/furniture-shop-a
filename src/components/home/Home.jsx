@@ -1,3 +1,4 @@
+import Facelity from "../facelity/Facelity";
 import HeroSection from "../hero/HeroSection";
 import Navbar from "../navbar/Navbar";
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Navbar/>
             <HeroSection/>
+            <Facelity/>
         </div>
     );
 };

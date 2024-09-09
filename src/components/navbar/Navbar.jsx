@@ -13,9 +13,9 @@ const Navbar = () => {
   ];
   const [open, setOpen] = useState(false);
   return (
-    <Container>
-      <div className="w-full fixed top-0 z-50 left-0">
-        <div className="md:flex items-center justify-between bg-white py-3 md:px-10 px-7">
+    <>
+      <div className="w-full fixed top-0 z-50 left-0 bg-white">
+        <div className="max-w-screen-xl mx-auto md:flex items-center justify-between bg-white py-3 md:px-10 px-7">
           <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800 ">
             Furniture
           </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </Container>
+    </>
   );
 };
 

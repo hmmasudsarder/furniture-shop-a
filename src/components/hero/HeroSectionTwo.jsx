@@ -7,8 +7,8 @@ const HeroSectionTwo = () => {
     <div className="bg-[#F2F5FF] h-[874px]">
       <Container>
         <div className="flex items-center justify-between gap-10 mx-20">
-          <div className="flex justify-center gap-5 flex-col w-[414px] text-left">
-            <h3 className="text-2xl font-bold mt-96">Beautify Your Space</h3>
+          <div className="flex justify-center gap-5 flex-col w-[414px] md:text-left text-center">
+            <h3 className="text-2xl font-bold md:mt-96">Beautify Your Space</h3>
             <p className="text-[#666666] leading-loose">
               Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris.
